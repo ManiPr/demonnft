@@ -24,19 +24,14 @@ html {
   body {
   font-size: 1.6rem;
   line-height: 1.6rem;
-  font-family: 'sahel';
+  font-family: var(--main-font);
   background-color:var(--main-bg-color);
   color: var(--white)
   }
   
   a {
-  text-decoration: none;
-  color:black;
-  }
-  a {
     text-decoration: none;
-    color:var(--main-color);
-    }
+  }
   ul {
   list-style-type: none;
   padding-left: 0;

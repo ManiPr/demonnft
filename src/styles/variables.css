@@ -1,0 +1,15 @@
+:root{
+    /* colors */
+    --blue:blue;
+    --red:red;
+    --bg-color:#161616;
+    --main-color:#DDF247;
+    --black:#111111;
+    --bg-btn-color:#161616;
+    /* fonts */
+    --main-font:'sahel';
+    --second-font:'vazir';
+    --third-font:'sarbaz';
+    /* distances */
+    --margin-top:5rem;
+}

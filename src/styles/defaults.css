@@ -1,0 +1,47 @@
+html {
+  font-size: 62.5%; 
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+  }
+  
+  *,
+  *::after,
+  *::before {
+  box-sizing: inherit;
+  
+  }
+  
+ 
+.container {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+  
+  body {
+  font-size: 1.6rem;
+  line-height: 1.6rem;
+  font-family: 'sahel';
+  background-color:var(--main-bg-color);
+  color: var(--white)
+  }
+  
+  a {
+  text-decoration: none;
+  color:black;
+  }
+  a {
+    text-decoration: none;
+    color:var(--main-color);
+    }
+  ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 0;
+  }
+  li{
+    list-style-type: none;
+  }

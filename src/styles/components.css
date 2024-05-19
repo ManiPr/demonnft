@@ -1,0 +1,15 @@
+.button-component{
+    background-color: var(--pale-green);
+    color: var(--black);
+    border-radius: .5rem;
+    font-size: 2.1rem;
+    width: 15rem;
+    height: 5rem;
+    cursor: pointer;
+    border: none;
+}
+.button-component:hover{
+    transition: var(--main-transition);
+    background-color: var(--white);
+}
+   

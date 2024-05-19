@@ -1,0 +1,31 @@
+.header__main{
+    margin-top: var(--big-top);
+}
+.eader__backgrounds{
+
+}
+.header__background{
+
+}
+.header__content{
+
+}
+.header__title{
+    font-size: var(--font-3rem);
+    font-family: var(--third-font)
+}
+.header__caption{
+    margin-top: var(--main-top);
+    color: var(--caption-color);
+    font-size: var(--main-font-size);
+    padding: 0 20rem;
+    line-height: var(--line-height);
+}
+.header__buttons{
+    gap: var(--main-gap);
+    margin-top: var(--main-top);
+}
+.header__button{
+    background-color: var(--white);
+    padding: 3rem 4rem;
+}

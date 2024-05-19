@@ -45,17 +45,7 @@
     font-size: 3rem;
     left: 1rem;
 }
-.top-bar__wallet{
-    background-color: var(--pale-green);
-    padding: 1.1rem 3rem;
-    color: var(--black);
-    border-radius: .5rem;
-    font-size: 2.1rem;
-}
-.top-bar__wallet:hover{
-    transition: var(--main-transition);
-    background-color: var(--white);
-}
+
 .top-bar__wallet-text{
 
 }

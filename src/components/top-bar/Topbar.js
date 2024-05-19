@@ -6,7 +6,7 @@ import { FiSearch } from "react-icons/fi";
 import { RiWallet3Fill } from "react-icons/ri";
 import { IoSearchSharp } from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
-
+import Button from '../button/Button'
 export default function Topbar() {
     const [isSearch,setIsSearch]=useState(true)
     const [isSearchBox,setIsSearchBox]=useState(false)
@@ -25,10 +25,10 @@ export default function Topbar() {
                 </div>
                 <div className='top-bar__left'>
                     <div className='top-bar__search center'>
-                    <div className='top-bar__wallet center'>
-                            <RiWallet3Fill className='top-bar__wallet-icon'></RiWallet3Fill>
-                            <div className='top-bar__wallet-text pointer'>کیف پول </div>
-                        </div>
+                    <Button  className='button-component center'>
+                        <RiWallet3Fill className='top-bar__wallet-icon'></RiWallet3Fill>
+                        <p className='top-bar__wallet-text pointer'>کیف پول </p>
+                    </Button>                           
                         {isSearch?
                         <IoSearchSharp onClick={openSearch} className='top-bar__search-icon-sharp pointer'></IoSearchSharp>
                         :
@@ -40,7 +40,6 @@ export default function Topbar() {
                              <FiSearch className='top-bar__search-icon-fi-search pointer'></FiSearch>
                             </div>
                         }
-                       
                     </div>
                     <div className='top-bar__nav-menu'>
                         <div className='top-bar__nav-menu-top'>

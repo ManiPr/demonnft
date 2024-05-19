@@ -12,6 +12,7 @@ import './styles/helpers.css'
 import './styles/defaults.css'
 import './styles/grid.css'
 import './styles/responsive.css'
+import './styles/components.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

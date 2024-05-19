@@ -9,14 +9,17 @@
     --grey-black:#232323;
     --bg-btn-color:#161616;
     --grey-pink:#8A8AA0;
+    --caption-color:#7D7D7D;
     /* fonts */
     --main-font:'sahel';
     --second-font:'vazir';
     --third-font:'sarbaz';
     /* distances */
     --main-top:5rem;
+    --big-top:12rem;
     --main-gap:5rem;
     --icon-distance:1rem;
+    --line-height:3rem;
     /* sizes */
     --font-3rem:4rem;
     --main-font-size:2rem;

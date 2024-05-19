@@ -1,0 +1,77 @@
+.top-bar{
+    margin-top: var(--main-top);
+}
+.top-bar__wrapper{
+     justify-content: space-between;
+}
+.top-bar__right{
+    gap: var(--main-gap);
+}
+.top-bar__logo{
+    font-family: var(--third-font);
+    font-size: var(--font-3rem);
+}
+.top-bar__color-p{
+    color: var(--pale-green);
+}
+.top-bar__left{
+
+}
+.top-bar__search{
+    position: relative;
+    gap: var(--icon-distance);
+}
+.top-bar__search-icon-sharp{
+    font-size:var(--main-icon-size);
+    transition: var(--main-transition);
+}
+.top-bar__search-icon-sharp:hover{
+    color: var(--pale-green);
+}
+.top-bar__search-inputs{
+    position:absolute;
+    top: var(--main-top);
+}
+.topbar__search-input{
+    background-color: var(--grey-black);
+    border: none;
+    outline: none;
+    color: var(--grey-pink);
+    padding: 1.5rem 2rem;
+    border-radius: .5rem;
+}
+.top-bar__search-icon-fi-search{
+    position: absolute;
+    font-size: 3rem;
+    left: 1rem;
+}
+.top-bar__wallet{
+    background-color: var(--pale-green);
+    padding: 1.1rem 3rem;
+    color: var(--black);
+    border-radius: .5rem;
+    font-size: 2.1rem;
+}
+.top-bar__wallet:hover{
+    transition: var(--main-transition);
+    background-color: var(--white);
+}
+.top-bar__wallet-text{
+
+}
+.top-bar__wallet-icon{
+}
+.top-bar__nav-menu{
+    display:none;
+}
+.top-bar__nav-menu--active{
+}
+.top-bar__nav-menu-top{
+
+}
+.top-bar__nav-menu-title{
+
+}
+.top-bar__nav-menu-icon{
+
+}

@@ -1,0 +1,14 @@
+.top-bar__menu{
+    gap: var(--main-gap);
+}
+.top-bar__menu-item{
+    font-size: var(--main-font-size);
+    font-family: var(--second-font);
+    transition: var(--main-transition);
+}
+.top-bar__menu-item:hover{
+   color: var(--pale-green);
+}
+.top-bar__menu-link{
+
+}

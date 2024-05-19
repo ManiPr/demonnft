@@ -1,30 +1,46 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Topbar.css'
 import Menu from '../menu/Menu'
 import { CiCircleRemove } from "react-icons/ci";
-import { IoSearchOutline } from "react-icons/io5";
+import { FiSearch } from "react-icons/fi";
 import { RiWallet3Fill } from "react-icons/ri";
+import { IoSearchSharp } from "react-icons/io5";
+import { AiOutlineClose } from "react-icons/ai";
 
 export default function Topbar() {
+    const [isSearch,setIsSearch]=useState(true)
+    const [isSearchBox,setIsSearchBox]=useState(false)
+    const openSearch=()=>{
+        setIsSearch(!isSearch)
+        setIsSearchBox(!isSearchBox)
+        console.log(isSearchBox);
+    }
   return (
     <>
         <div className='top-bar'>
-            <div className='top-bar__wrapper'>
-                <div className='top-bar__right'>
-                <a className='top-bar__logo'>DemonNFT</a>
+            <div className='top-bar__wrapper space-between'>
+                <div className='top-bar__right center'>
+                <a className='top-bar__logo'><span className='top-bar__color-p'>Demon</span>NFT</a>
                     <Menu></Menu>
                 </div>
                 <div className='top-bar__left'>
-                    <div className='top-bar__search'>
-                        <IoSearchOutline className='top-bar__search-icon'></IoSearchOutline>
-                        <div className='top-bar__search-inputs'>
-                            <input placeholder='سرچ' type='text'></input>
-                            <IoSearchOutline className='top-bar__search-icon'></IoSearchOutline>
-                        </div>
-                        <div className='top-bar__wallet'>
-                            <div className='top-bar__wallet-text'>کیف پول </div>
+                    <div className='top-bar__search center'>
+                    <div className='top-bar__wallet center'>
                             <RiWallet3Fill className='top-bar__wallet-icon'></RiWallet3Fill>
+                            <div className='top-bar__wallet-text pointer'>کیف پول </div>
                         </div>
+                        {isSearch?
+                        <IoSearchSharp onClick={openSearch} className='top-bar__search-icon-sharp pointer'></IoSearchSharp>
+                        :
+                        <AiOutlineClose onClick={openSearch} className='top-bar__search-icon-sharp pointer'></AiOutlineClose>
+                        }
+                        {isSearchBox &&
+                            <div className='top-bar__search-inputs center'>
+                             <input className='topbar__search-input' placeholder='سرچ' type='text'></input>
+                             <FiSearch className='top-bar__search-icon-fi-search pointer'></FiSearch>
+                            </div>
+                        }
+                       
                     </div>
                     <div className='top-bar__nav-menu'>
                         <div className='top-bar__nav-menu-top'>
@@ -35,8 +51,6 @@ export default function Topbar() {
             </div>
                 </div>
                 </div>
-           
-
         </div>
     </>
   )

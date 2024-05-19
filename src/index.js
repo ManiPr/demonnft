@@ -10,6 +10,9 @@ import './styles/fonts.css'
 import './styles/variables.css'
 import './styles/helpers.css'
 import './styles/defaults.css'
+import './styles/grid.css'
+import './styles/responsive.css'
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>

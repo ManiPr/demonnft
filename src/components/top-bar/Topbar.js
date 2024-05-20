@@ -36,7 +36,7 @@ export default function Topbar() {
                         }
                         {isSearchBox &&
                             <div className='top-bar__search-inputs center'>
-                             <input className='topbar__search-input' placeholder='سرچ' type='text'></input>
+                             <input className='topbar__search-input' placeholder='...سرچ' type='text'></input>
                              <FiSearch className='top-bar__search-icon-fi-search pointer'></FiSearch>
                             </div>
                         }

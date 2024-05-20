@@ -13,6 +13,7 @@ import './styles/defaults.css'
 import './styles/grid.css'
 import './styles/responsive.css'
 import './styles/components.css'
+import './styles/animations.css'
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

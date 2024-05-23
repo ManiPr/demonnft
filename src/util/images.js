@@ -5,6 +5,7 @@ const images = {
     headerImageItem4: require('../assets/header-image/item4.png'),
     headerImageItem5: require('../assets/header-image/item5.png'),
     headerBackgroundImage: require('../assets/header-image/bg-home7.png'),
+    nftImage: require('../assets/nft-image/banner-01.jpg'),
 };
   
   export default images;

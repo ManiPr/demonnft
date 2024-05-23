@@ -21,9 +21,11 @@
     --icon-distance:1rem;
     --line-height:3rem;
     /* sizes */
-    --font-3rem:4rem;
+    --font-3rem:5rem;
     --main-font-size:2rem;
     --main-icon-size:2.5rem;
     /* animations */
     --main-transition:all .7s ease;
+    --move-transition:all .3s ease-in;
+    --scale-transition:all .1s ease;
 }

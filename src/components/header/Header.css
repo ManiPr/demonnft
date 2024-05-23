@@ -83,3 +83,6 @@
     background-color: var(--white);
     padding: 3rem 4rem;
 }
+.header__slider{
+    margin-top: 15rem;
+}

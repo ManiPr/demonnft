@@ -24,6 +24,7 @@
     --font-3rem:5rem;
     --main-font-size:2rem;
     --main-icon-size:2.5rem;
+    --margin-center:5rem 25rem 0 25rem;
     /* animations */
     --main-transition:all .7s ease;
     --move-transition:all .3s ease-in;

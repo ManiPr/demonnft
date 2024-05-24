@@ -5,12 +5,13 @@ import Button from '../button/Button';
 import images from '../../util/images';
 import NftCardHead from '../nft-card-head/NftCardHead';
 import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/swiper-bundle.min.css';
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 
-// Install Swiper modules
-Swiper.use([EffectCoverflow, Pagination, Navigation]);
-
+import 'swiper/css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import testimage from '../../assets/nft-image/banner-01.jpg';
 export default function Header() {
   return (
     <>
@@ -43,32 +44,119 @@ export default function Header() {
               </Button>
             </div>
           </div>
-          <div className='header__slider center'>
-            <Swiper
+          <div>
+          {/* <Swiper
               effect={'coverflow'}
               grabCursor={true}
+              spaceBetween={4}
               centeredSlides={true}
-              slidesPerView={'auto'}
+              loop:true
+              slidesPerView={4}
               coverflowEffect={{
-                rotate: 50,
-                stretch: 0,
-                depth: 100,
-                modifier: 1,
-                slideShadows: true,
+              rotate: 0,
+              stretch: 0,
+              depth: 100,
+              modifier: 2.5,
               }}
-              pagination={true}
-              navigation={true}
-              className='mySwiper'
-            >
-              <SwiperSlide><NftCardHead image={images.nftImage} /></SwiperSlide>
-              <SwiperSlide><NftCardHead image={images.nftImage} /></SwiperSlide>
-              <SwiperSlide><NftCardHead image={images.nftImage} /></SwiperSlide>
-              <SwiperSlide><NftCardHead image={images.nftImage} /></SwiperSlide>
-            </Swiper>
+            pagination={{ el: '.swiper-pagination', clickable: true }}
+            navigation={{
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+              clickable: true,
+            }}
+            modules={[EffectCoverflow, Pagination, Navigation]}
+            className="swiper_container header__slider"
+          >
+            <SwiperSlide>
+              <NftCardHead image={images.nftImage} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <NftCardHead image={images.nftImage} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <NftCardHead image={images.nftImage} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <NftCardHead image={images.nftImage} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <NftCardHead image={images.nftImage} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <NftCardHead image={images.nftImage} />
+            </SwiperSlide>
+            <div className="slider-controler">
+              <div className="swiper-button-prev slider-arrow">
+                <ion-icon name="arrow-back-outline"></ion-icon>
+              </div>
+              <div className="swiper-button-next slider-arrow">
+                <ion-icon name="arrow-forward-outline"></ion-icon>
+              </div>
+              <div className="swiper-pagination"></div>
+            </div>
+          </Swiper> */}
+          <div className='header__slider center'>
+          <Swiper
+        effect={'coverflow'}
+        grabCursor={true}
+        centeredSlides={true}
+        loop={true}
+        slidesPerView={7}
+        coverflowEffect={{
+          rotate: 0,
+          stretch: 0,
+          depth: 100,
+          modifier: 2.5,
+        }}
+        pagination={{ el: '.swiper-pagination', clickable: true }}
+        navigation={{
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+          clickable: true,
+        }}
+        modules={[EffectCoverflow, Pagination, Navigation]}
+        className="swiper_container"
+      >
+        <SwiperSlide>
+         <NftCardHead image={images.nftImage} />
+        </SwiperSlide>
+        <SwiperSlide>
+         <NftCardHead image={images.nftImage} />
+        </SwiperSlide>
+        <SwiperSlide>
+         <NftCardHead image={images.nftImage} />
+        </SwiperSlide>
+        <SwiperSlide>
+         <NftCardHead image={images.nftImage} />
+        </SwiperSlide>
+        <SwiperSlide>
+         <NftCardHead image={images.nftImage} />
+        </SwiperSlide>
+        <SwiperSlide>
+         <NftCardHead image={images.nftImage} />
+        </SwiperSlide>
+        <SwiperSlide>
+         <NftCardHead image={images.nftImage} />
+        </SwiperSlide>
+        <SwiperSlide>
+         <NftCardHead image={images.nftImage} />
+        </SwiperSlide>
+        <div className="slider-controler">
+          <div className="swiper-button-prev slider-arrow">
+            <ion-icon name="arrow-back-outline"></ion-icon>
           </div>
+          <div className="swiper-button-next slider-arrow">
+            <ion-icon name="arrow-forward-outline"></ion-icon>
+          </div>
+          <div className="swiper-pagination"></div>
+        </div>
+      </Swiper>
+          </div>
+         
+          </div>
+      
         </div>
       </header>
     </>
   );
 }
-// باید از توی سبزلرن نگاه کنی بعد swiper رو باید بکنی کامپوننت 

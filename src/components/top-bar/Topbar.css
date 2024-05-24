@@ -1,5 +1,5 @@
 .top-bar{
-    margin-top: var(--main-top);
+    margin:var(--margin-center)
 }
 .top-bar__wrapper{
      justify-content: space-between;

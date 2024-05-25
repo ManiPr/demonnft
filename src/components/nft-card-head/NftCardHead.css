@@ -3,8 +3,8 @@
     background: #1E1E1E;
     margin-bottom: 40px;
     transition: all 0.2s ease;
-    width: 29rem;
-    height: 35rem;
+    width: 35rem;
+    height: 40rem;
     padding: 12px 12px 7rem 12px;
     position: relative;
     overflow: hidden;
@@ -45,7 +45,7 @@
  position: absolute;
  top: 2rem;
  background-color: #ffffff33;
- padding: .5rem;
+ padding: .8rem;
  right: 5rem;
  border-radius: 1.5rem;
 }
@@ -60,6 +60,7 @@
     height: 2.6rem;
     padding-top: .5rem;
     padding-right: .4px;
+    font-size: var( --main-font-size);
 }
 .nft-card-head__button {
  background-color: var(--white);

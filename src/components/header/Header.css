@@ -96,16 +96,64 @@
     margin-top: 15rem;
 }
 .swiper {
-    width: 80%;
+    width: 90%;
     height: 100%;
-}
- .swiper-slide-shadow-left,
+    margin: 0 auto; /* Center the swiper container */
+  }
+  .swiper:hover  .swiper-button-prev,
+  .swiper-button-next {
+   opacity: 1;
+  }
+  .swiper:hover .swiper-button-next {
+   opacity: 1;
+  }
+  .swiper-slide-shadow-left,
   .swiper-slide-shadow-right {
     display: none;
   }
   
-
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: var(--white) !important; /* Change this to the desired color */
+    background-color: var(--slider-color); /* Optional: change background color */
+    border-radius: 50%; /* Optional: make the buttons round */
+    padding: 3rem; /* Adjust padding for the buttons */
+    transition: var(--main-transition);
+    font-size: var(--main-font-size);
+    position: absolute; /* Position absolutely */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust to center vertically */
+    z-index: 10; /* Ensure buttons are above other elements */
+    opacity: 0;
+  }
+  .swiper-button-prev:hover::after,
+  .swiper-button-next:hover::after {
+    color: var(--black); /* Change to black on hover */
+  }
+  
+  .swiper-button-prev:hover,
+  .swiper-button-next:hover {
+    background-color: var(--pale-green);
+  }
+  
+  .swiper-pagination-bullet {
+    background-color: #ccc; /* Default color for pagination bullets */
+  }
+  
+  .swiper-pagination-bullet-active {
+    background-color: #00ff00; /* Green color for active pagination bullet */
+  }
+  
+  .swiper-rtl .swiper-button-prev::after {
+    font-size: 3rem;
+  }
+  
+  .swiper-rtl .swiper-button-next::after {
+    font-size: 3rem;
+  }
   
 
   
-  
+  .swiper-pagination-bullet-active {
+    background-color: var(--pale-green) !important; /* رنگ دلخواه شما */
+  }

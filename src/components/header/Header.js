@@ -45,68 +45,20 @@ export default function Header() {
             </div>
           </div>
           <div>
-          {/* <Swiper
-              effect={'coverflow'}
-              grabCursor={true}
-              spaceBetween={4}
-              centeredSlides={true}
-              loop:true
-              slidesPerView={4}
-              coverflowEffect={{
-              rotate: 0,
-              stretch: 0,
-              depth: 100,
-              modifier: 2.5,
-              }}
-            pagination={{ el: '.swiper-pagination', clickable: true }}
-            navigation={{
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-              clickable: true,
-            }}
-            modules={[EffectCoverflow, Pagination, Navigation]}
-            className="swiper_container header__slider"
-          >
-            <SwiperSlide>
-              <NftCardHead image={images.nftImage} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <NftCardHead image={images.nftImage} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <NftCardHead image={images.nftImage} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <NftCardHead image={images.nftImage} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <NftCardHead image={images.nftImage} />
-            </SwiperSlide>
-            <SwiperSlide>
-              <NftCardHead image={images.nftImage} />
-            </SwiperSlide>
-            <div className="slider-controler">
-              <div className="swiper-button-prev slider-arrow">
-                <ion-icon name="arrow-back-outline"></ion-icon>
-              </div>
-              <div className="swiper-button-next slider-arrow">
-                <ion-icon name="arrow-forward-outline"></ion-icon>
-              </div>
-              <div className="swiper-pagination"></div>
-            </div>
-          </Swiper> */}
           <div className='header__slider center'>
           <Swiper
         effect={'coverflow'}
         grabCursor={true}
         centeredSlides={true}
         loop={true}
+        spaceBetween={-100}
         slidesPerView={7}
         coverflowEffect={{
-          rotate: 0,
-          stretch: 0,
+          rotate: 10,
+          stretch: -30,
           depth: 100,
           modifier: 2.5,
+          slideShadows:true,
         }}
         pagination={{ el: '.swiper-pagination', clickable: true }}
         navigation={{

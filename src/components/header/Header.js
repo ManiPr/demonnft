@@ -52,13 +52,13 @@ export default function Header() {
         centeredSlides={true}
         loop={true}
         spaceBetween={-100}
-        slidesPerView={7}
+        slidesPerView={6}
         coverflowEffect={{
           rotate: 10,
           stretch: -30,
           depth: 100,
           modifier: 2.5,
-          slideShadows:true,
+          clickable:true,
         }}
         pagination={{ el: '.swiper-pagination', clickable: true }}
         navigation={{
@@ -69,28 +69,28 @@ export default function Header() {
         modules={[EffectCoverflow, Pagination, Navigation]}
         className="swiper_container"
       >
-        <SwiperSlide>
+        <SwiperSlide className='header__swiper-slide'>
          <NftCardHead image={images.nftImage} />
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className='header__swiper-slide'>
          <NftCardHead image={images.nftImage} />
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> 
+        <SwiperSlide className='header__swiper-slide'>
          <NftCardHead image={images.nftImage} />
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> 
+        <SwiperSlide className='header__swiper-slide'>
          <NftCardHead image={images.nftImage} />
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> 
+        <SwiperSlide className='header__swiper-slide'>
          <NftCardHead image={images.nftImage} />
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> 
+        <SwiperSlide className='header__swiper-slide'>
          <NftCardHead image={images.nftImage} />
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> 
+        <SwiperSlide className='header__swiper-slide'>
          <NftCardHead image={images.nftImage} />
-        </SwiperSlide>
-        <SwiperSlide>
+        </SwiperSlide> 
+        <SwiperSlide className='header__swiper-slide'>
          <NftCardHead image={images.nftImage} />
         </SwiperSlide>
         <div className="slider-controler">

@@ -10,14 +10,14 @@
     overflow: hidden;
     transition: var(--scale-transition);
   }
-  /* .nft-card-head:hover .nft-card-head__button{
+   .header__swiper-slide:hover .nft-card-head__button{
     top: 70%;
     opacity: 1;
 }
-.nft-card-head:hover .nft-card-head__image{
+.header__swiper-slide:hover .nft-card-head__image{
     transform: scale(1.1);
 }
-.nft-card-head:hover{
+/* .nft-card-head:hover{
     transform:translatey(-1rem)
 } */
 .nft-card-head__link{
@@ -38,7 +38,7 @@
     transition: var(--scale-transition);
 }
 .nft-card-head__media {
-   
+
 }
 
 .nft-card-head__time {

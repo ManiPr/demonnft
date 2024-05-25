@@ -96,7 +96,8 @@
     margin-top: 15rem;
 }
 .swiper {
-    width: 90%;
+    max-width: 145rem;
+    min-width: 100rem;
     height: 100%;
     margin: 0 auto; /* Center the swiper container */
   }
@@ -157,3 +158,6 @@
   .swiper-pagination-bullet-active {
     background-color: var(--pale-green) !important; /* رنگ دلخواه شما */
   }
+.SwiperSlide{
+  cursor: pointer;
+}

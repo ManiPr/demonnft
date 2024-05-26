@@ -8,6 +8,7 @@ export default function Index() {
     <>
     <Header></Header>
     <StepSec></StepSec>
+    <p>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr></p>
     </>
   );
 }

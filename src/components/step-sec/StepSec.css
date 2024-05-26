@@ -29,4 +29,5 @@
 .step-sec__image{
     animation: rotateleftright 5s infinite linear alternate;
     margin-right: 5rem;
+    margin-top: 5rem;
 }

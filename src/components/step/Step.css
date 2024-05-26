@@ -1,8 +1,8 @@
 .step{
     background-color: var(--grey-black);
-    width: 24rem;
-    height: 25rem;
-    border-radius: 1.5rem;
+    width: 25rem;
+    height: 30rem;
+    border-radius: 3rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -20,11 +20,11 @@
     position: absolute;
     width: 4rem;
     height: 4rem;
-    top: -5rem;
+    top: -7rem;
 }
 .step__image-caption{
     color: var(--caption-color-2);
-    margin-bottom: 1rem;
+    margin-bottom: 2rem;
 }
 .step__content{
     text-align: right;

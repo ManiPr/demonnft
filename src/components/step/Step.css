@@ -1,0 +1,46 @@
+.step{
+    background-color: var(--grey-black);
+    width: 24rem;
+    height: 25rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    text-align: right;
+    padding: 0 3rem;
+}
+.step:hover .step__image{
+    animation: rotate .9s ease-in-out;
+}
+.step__image-container{
+    position: relative;
+}
+.step__image{
+    position: absolute;
+    width: 4rem;
+    height: 4rem;
+    top: -5rem;
+}
+.step__image-caption{
+    color: var(--caption-color-2);
+    margin-bottom: 1rem;
+}
+.step__content{
+    text-align: right;
+}
+.step__title{
+    font-size: 1.8rem;
+    font-family: var(--third-font);
+    cursor: pointer;
+    margin-bottom: 1rem;
+}
+.step__title:hover{
+    color: var(--pale-green);
+    transition: var(--main-transition);
+}
+.step__caption{
+    line-height: 2.5rem;
+    color: var(--caption-color-2);
+    height: 5rem;
+}

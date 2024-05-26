@@ -1,0 +1,32 @@
+.step-sec{
+    margin-top: var(--main-top);
+}
+.step-sec__wrapper{
+}
+.step-sec__right{
+
+}
+.step-sec__title{
+    font-size: var(--font-3rem);
+    font-family: var(--third-font);
+    width: 25rem;
+    text-align: right;
+    line-height: 4rem;
+}
+.step-sec__steps{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap: 2rem;
+    margin-top: 3rem;
+}
+.step-sec__left{
+
+}
+.step-sec__image-container{
+
+}
+.step-sec__image{
+    animation: rotateleftright 5s infinite linear alternate;
+    margin-right: 5rem;
+}

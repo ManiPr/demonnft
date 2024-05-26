@@ -11,6 +11,7 @@
     --grey-pink:#8A8AA0;
     --caption-color:#7D7D7D;
     --slider-color:#2A2A2A;
+    --caption-color-2:#7F7F7F;
     /* fonts */
     --main-font:'sahel';
     --second-font:'vazir';
@@ -22,7 +23,9 @@
     --icon-distance:1rem;
     --line-height:3rem;
     /* sizes */
-    --font-3rem:5rem;
+    --font-5rem:5rem;
+    --font-4rem:4rem;
+    --font-3rem:3rem;
     --main-font-size:2rem;
     --main-icon-size:2.5rem;
     --margin-center:5rem 25rem 0 25rem;

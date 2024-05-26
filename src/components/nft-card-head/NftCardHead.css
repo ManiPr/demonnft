@@ -3,7 +3,7 @@
     background: #1E1E1E;
     margin-bottom: 40px;
     transition: all 0.2s ease;
-    width: 35rem;
+    width: 30rem;
     height: 40rem;
     padding: 12px 12px 7rem 12px;
     position: relative;
@@ -17,9 +17,9 @@
 .header__swiper-slide:hover .nft-card-head__image{
     transform: scale(1.1);
 }
-/* .nft-card-head:hover{
-    transform:translatey(-1rem)
-} */
+ .nft-card-head:hover{
+    transform:translatey(-.5rem)
+} 
 .nft-card-head__link{
     overflow: hidden;
 

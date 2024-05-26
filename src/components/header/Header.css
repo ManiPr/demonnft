@@ -88,7 +88,7 @@
 }
 /* Slider */
 .header__slider{
-    margin-top: 15rem;
+    margin-top: 10rem;
 }
 .swiper {
     max-width: 145rem;
@@ -156,39 +156,6 @@
 .SwiperSlide{
   cursor: pointer;
 }
-
-
-
-/*  */
-.square-line {
-  position: absolute;
-  width: 0.2rem;
-  height: 2rem;
-  background-color: var(--line-color);
-  opacity: 0.5;
-  animation: moveUp 5s infinite linear;
-}
-
-@keyframes moveUp {
-  0% {
-    transform: translateY(100%);
-  }
-  100% {
-    transform: translateY(-100%);
-  }
-}
-
-/* خطوط مربعی را در اسلایدر قرار دهید */
-.header__slider .slider-background {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  overflow: hidden;
-  z-index: -1; /* پس‌زمینه را پشت محتوای اسلایدر قرار دهید */
-}
-
 
 
 

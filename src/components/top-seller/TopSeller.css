@@ -1,0 +1,20 @@
+.top-seller{
+    margin-top: 10rem;
+}
+.top-seller__wrapper{
+    margin: 0 20rem;
+}
+.top-seller__top{
+ font-size: var(--font-3rem);
+ text-align: right;
+ margin-bottom: 3rem;
+ font-family: var(--third-font);
+}
+.top-seller__day{
+    color: var(--pale-green);
+}
+.top-seller__main{
+
+}
+.top-seller__tiltle{
+}

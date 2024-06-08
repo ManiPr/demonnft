@@ -3,9 +3,9 @@
     background: #1E1E1E;
     margin-bottom: 40px;
     transition: all 0.2s ease;
-    width: 30rem;
-    height: 40rem;
-    padding: 12px 12px 7rem 12px;
+    width: 28rem;
+    height: 30rem;
+    padding: 15px 15px 7rem 10px;
     position: relative;
     overflow: hidden;
     transition: var(--scale-transition);

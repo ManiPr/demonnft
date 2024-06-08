@@ -2,14 +2,14 @@ import React from "react";
 import "./Index.css";
 import Header from '../../components/header/Header'
 import StepSec from '../../components/step-sec/StepSec'
+import TopSeller from '../../components/top-seller/TopSeller'
 export default function Index() {
 
   return (
     <>
-    <h1 className='back'>من برگشتم</h1>
     <Header></Header>
     <StepSec></StepSec>
-    <p>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr>dsadsada<hr></hr></p>
+    <TopSeller></TopSeller>
     </>
   );
 }

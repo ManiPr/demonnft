@@ -11,6 +11,7 @@ const images = {
     stepImage3:require('../assets/step-image/icon-03.png'),
     stepImage4:require('../assets/step-image/icon-04.png'),
     stepBackgroundImage:require('../assets/step-image/img-02.png'),
+    userImage:require('../assets/user-image/avatar-05.png')
 };
   
   export default images;

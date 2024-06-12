@@ -25,14 +25,14 @@ export default function TopSeller() {
               <Swiper navigation={true} modules={[Navigation]}  centeredSlides={true}
         loop={true}
         slidesPerView={5} className="mySwiper">
-        <SwiperSlide><User image={images.nftImage}></User></SwiperSlide>
-        <SwiperSlide><User image={images.nftImage}></User></SwiperSlide>
-        <SwiperSlide><User image={images.nftImage}></User></SwiperSlide>
-        <SwiperSlide><User image={images.nftImage}></User></SwiperSlide>
-        <SwiperSlide><User image={images.nftImage}></User></SwiperSlide>
-        <SwiperSlide><User image={images.nftImage}></User></SwiperSlide>
-        <SwiperSlide><User image={images.nftImage}></User></SwiperSlide>
-        <SwiperSlide><User image={images.nftImage}></User></SwiperSlide>
+        <SwiperSlide><User image={images.userImage}></User></SwiperSlide>
+        <SwiperSlide><User image={images.userImage}></User></SwiperSlide>
+        <SwiperSlide><User image={images.userImage}></User></SwiperSlide>
+        <SwiperSlide><User image={images.userImage}></User></SwiperSlide>
+        <SwiperSlide><User image={images.userImage}></User></SwiperSlide>
+        <SwiperSlide><User image={images.userImage}></User></SwiperSlide>
+        <SwiperSlide><User image={images.userImage}></User></SwiperSlide>
+        <SwiperSlide><User image={images.userImage}></User></SwiperSlide>
       </Swiper>
               </div>
             </div>

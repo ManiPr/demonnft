@@ -10,8 +10,8 @@ export default function User({image}) {
                 <img src={image} className='user__image'></img>
             </div>
             <div className='user__detail'>
-                <p className='user__name'>مانی فنایی</p>
-                <p className='user__price center'>40,000<FaEthereum></FaEthereum></p>
+                <p className='user__name'>سید رضا فنایی</p>
+                <p className='user__price center'>40,000,000,000<FaEthereum></FaEthereum></p>
             </div>
         </div>
     </>

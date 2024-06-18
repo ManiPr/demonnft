@@ -12,7 +12,12 @@ export default function FeaturedItem() {
                         <Button></Button>
                     </div>
                     <div className='featured-item__main'>
-                        
+                        <hr></hr>
+                                                <hr></hr>
+                        <hr></hr>
+                        <hr></hr>
+                        <hr></hr>
+
                     </div>
                 </div>
             </div>

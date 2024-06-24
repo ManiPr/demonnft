@@ -4,7 +4,7 @@ import Button from '../button/Button'
 import { FaEthereum } from "react-icons/fa";
 import './NftCardHead.css'
 export default function NftCardHead({image}) {
-    console.log(image);
+    // این کامپوننت برای استفاده در اسلایدر در هدر اصلی هست 
   return (
     <>
    <div className='nft-card-head'>

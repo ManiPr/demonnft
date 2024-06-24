@@ -6,6 +6,7 @@ const images = {
     headerImageItem5: require('../assets/header-image/item5.png'),
     headerBackgroundImage: require('../assets/header-image/bg-home7.png'),
     nftImage: require('../assets/nft-image/banner-01.jpg'),
+    nftImage2: require('../assets/card-item-02.jpg'),
     stepImage1:require('../assets/step-image/icon-01.png'),
     stepImage2:require('../assets/step-image/icon-02.png'),
     stepImage3:require('../assets/step-image/icon-03.png'),
